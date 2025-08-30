@@ -1,0 +1,185 @@
+/* CSS Section */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+
+}
+
+body {
+
+  background: #f9f9f9;
+
+  color: #333;
+
+  line-height: 1.6;
+
+}
+
+header {
+
+  background: #2c3e50;
+
+  padding: 15px 30px;
+
+  color: white;
+
+}
+
+.logo {
+
+  float: left;
+
+}
+
+.nav-links {
+
+  list-style: none;
+
+  float: right;
+
+}
+
+.nav-links li {
+
+  display: inline;
+
+  margin: 0 15px;
+
+}
+
+.nav-links a {
+
+  text-decoration: none;
+
+  color: white;
+
+  font-weight: bold;
+
+}
+
+.hero {
+
+  text-align: center;
+
+  padding: 100px 20px;
+
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+
+  color: white;
+
+}
+
+.hero span {
+
+  color: #ffdd59;
+
+}
+
+.btn {
+
+  display: inline-block;
+
+  padding: 10px 20px;
+
+  margin-top: 15px;
+
+  background: #ffdd59;
+
+  color: black;
+
+  font-weight: bold;
+
+  border-radius: 25px;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+
+}
+
+.btn:hover {
+
+  background: #f1c40f;
+
+}
+
+section {
+
+  padding: 60px 20px;
+
+  text-align: center;
+
+}
+
+.skills-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  margin-top: 20px;
+
+}
+
+.skill {
+
+  background: #2980b9;
+
+  color: white;
+
+  padding: 15px 25px;
+
+  margin: 10px;
+
+  border-radius: 10px;
+
+  transition: 0.3s;
+
+}
+
+.skill:hover {
+
+  background: #6dd5fa;
+
+  color: black;
+
+}
+
+ul {
+
+  list-style: none;
+
+  padding: 0;
+
+}
+
+ul li {
+
+  margin: 10px 0;
+
+  font-size: 18px;
+
+}
+
+footer {
+
+  background: #2c3e50;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 15px 0;
+
+  margin-top: 40px;
+
+}
